@@ -35,6 +35,7 @@ This dataset contains leaf images of fruits and we have 22 classes of vegetables
 * 🍅 Tomato (Tomat)
 
 ## [2] Research Method
+![WhatsApp Image 2024-06-18 at 16 51 00_ac3c8c4c](https://github.com/Nutrieasy-Bangkit-Capstone/Nutrieasy-Model/assets/127914968/de6cb308-c998-4e62-a700-f62e38794a01)
 
 ## [3] Model Architecture
 
