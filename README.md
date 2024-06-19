@@ -20,7 +20,7 @@ This dataset contains leaf images of fruits and we have 44 classes of fruits, su
 * 🍇 Grape (Anggur)
 * 🍋 Lemon (Lemon)
 * 🥭 Mangga (Mangga)
-* 🍉 Watermelon (Semangka)
+* 🍉 Watermelon (Semangka) etc.
 
 ### Classification of Fruits and Vegetables
 This dataset contains leaf images of fruits and we have 22 classes of vegetables, such as:
@@ -32,7 +32,10 @@ This dataset contains leaf images of fruits and we have 22 classes of vegetables
 * 🧄 Garlic (Bawang Putih)
 * 🧅 Onion (Bawang Bombay)
 * 🥔 Potato (Kentang)
-* 🍅 Tomato (Tomat)
+* 🍅 Tomato (Tomat) etc.
+
+Our machine learning model was trained on a diverse dataset of fruit and vegetable images, totaling `56 classes`. However, to ensure the quality and reliability of our model, we filtered the classes to include only those with more than 10 images, resulting in `52 classes`
+
 
 ## [2] Research Method
 ![WhatsApp Image 2024-06-18 at 16 51 00_ac3c8c4c](https://github.com/Nutrieasy-Bangkit-Capstone/Nutrieasy-Model/assets/127914968/de6cb308-c998-4e62-a700-f62e38794a01)
@@ -41,20 +44,18 @@ This dataset contains leaf images of fruits and we have 22 classes of vegetables
 
 A Convolutional Neural Network (CNN) model is used to classify both dataset categories. The model architecture can be customized based on requirements, but for this project, the following architecture is used:
 
-* Input Layer
-* Convolutional Layers: Used for feature extraction from the images.
-* Max Pooling Layers: Used for dimensionality reduction of the features.
-* Flatten Layer: Flattens the features into a vector.
-* Fully Connected Layers: Perform classification tasks.
-* Output Layer: Outputs the classification predictions, it depends on labels.
+1. The Base Model : **Xception** (pre-trained on ImageNet, excluding the top layer).
+2. Flatten Layer : Converts the 3D output from the base model into 1D.
+3. Dense Layer : 1024 units with ReLU activation.
+4. Output Layer : is the Number of classes (56) with softmax activation for multi-class classification.
 
 ## [4] Requirements
 
-* Python 3 -
-* Keras -
-* TensorFlow -
-* NumPy -
-* Matplotlib -
+* TensorFlow version: 2.15.0
+* Keras version: 2.15.0
+* NumPy version: 1.25.2
+* Matplotlib version: 3.7.1
+* Python 3 version: 3.10.12 
 
 ## [5] Usage
 
@@ -66,7 +67,13 @@ A Convolutional Neural Network (CNN) model is used to classify both dataset cate
 
 ## [6] References
 
-[3] Dataset
+[1] Xception Documentation : 
+
+    a. https://keras.io/api/applications/xception/
+    b. https://keras.io/api/applications/#usage-examples-for-image-classification-models
+    c. https://towardsdatascience.com/xception-from-scratch-using-tensorflow-even-better-than-inception-940fb231ced9
+    
+[2] Dataset
   * Fruits =
     https://www.kaggle.com/datasets/keycia/fruit-nutrionix
     
@@ -75,7 +82,7 @@ A Convolutional Neural Network (CNN) model is used to classify both dataset cate
 
 ## [7] Authors
 
-This project is developed by C241-PS072 Team Bangkit as part of Bangkit Product Capstone.
+This project is developed by **C241-PS072** Team Bangkit as part of Bangkit Product Capstone.
 1. M505D4KY2938 – Steven Harianto
 2. M505D4KY2155 – Valentino Rocky Atmojo
 3. M319D4KX1450 – Kezia Natalia
