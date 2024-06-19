@@ -34,7 +34,7 @@ This dataset contains leaf images of fruits and we have 22 classes of vegetables
 * 🥔 Potato (Kentang)
 * 🍅 Tomato (Tomat) etc.
 
-Our machine learning model was trained on a diverse dataset of fruit and vegetable images, totaling `56 classes`. However, to ensure the quality and reliability of our model, we filtered the classes to include only those with more than 10 images, resulting in `52 classes`
+Our machine learning model was trained on a diverse dataset of fruit and vegetable images, totaling `66 classes` and each class consisting of 1000 images.
 
 
 ## [2] Research Method
@@ -47,7 +47,7 @@ A Convolutional Neural Network (CNN) model is used to classify both dataset cate
 1. The Base Model : **Xception** (pre-trained on ImageNet, excluding the top layer).
 2. Flatten Layer : Converts the 3D output from the base model into 1D.
 3. Dense Layer : 1024 units with ReLU activation.
-4. Output Layer : is the Number of classes (56) with softmax activation for multi-class classification.
+4. Output Layer : is the Number of classes (66) with softmax activation for multi-class classification.
 
 ## [4] Requirements
 
