@@ -11,7 +11,7 @@ Dataset Kaggle :
 2. Vegetables Dataset : https://www.kaggle.com/datasets/keycia/vegetables-nutrionix
 
 ### Classification of Fruits 
-This dataset contains leaf images of fruits and we have 44 classes of fruits, such as:
+This dataset contains images of whole fruit and pieces of fruit consisting of 44 fruit classes, such as:
 * 🍎 Apple (Apel)
 * 🥑 Avocado (Alpukat)
 * 🍌 Banana (Pisang)
@@ -23,7 +23,7 @@ This dataset contains leaf images of fruits and we have 44 classes of fruits, su
 * 🍉 Watermelon (Semangka) etc.
 
 ### Classification of Fruits and Vegetables
-This dataset contains leaf images of fruits and we have 22 classes of vegetables, such as:
+This dataset contains images of whole vegetables and vegetable cuts consisting of 22 vegetable classes, such as:
 * 🥦 Broccoli (Brokoli)
 * 🥕 Carrot (Wortel)
 * 🌽 Corn (Jagung)
@@ -48,6 +48,8 @@ A Convolutional Neural Network (CNN) model is used to classify both dataset cate
 2. Flatten Layer : Converts the 3D output from the base model into 1D.
 3. Dense Layer : 1024 units with ReLU activation.
 4. Output Layer : is the Number of classes (66) with softmax activation for multi-class classification.
+
+![model_architecture](https://github.com/Nutrieasy-Bangkit-Capstone/Nutrieasy-Model/assets/127914968/3105577a-6a73-4414-b291-4f223c11fc69)
 
 ## [4] Requirements
 
