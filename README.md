@@ -2,13 +2,16 @@
 
 This project aims to classify fruits and vegetables and detect the nutrients of fruits and vegetables using Convolutional Neural Network (CNN) in Python and TensorFlow. This project uses image data to identify the nutrition of fruits and vegetables based on the given image.
 
-## [1] Dataset
+## [1] Dataset and Model
 
 The dataset used consists of images of fruits and vegetables with their corresponding labels. The dataset is divided into two main categories: "Fruits Classification" and "Vegetable Classifications".
 
 Dataset Kaggle :
 1. Fruits Dataset : https://www.kaggle.com/datasets/keycia/fruit-nutrionix
 2. Vegetables Dataset : https://www.kaggle.com/datasets/keycia/vegetables-nutrionix
+
+Link for model (.h5) :
+https://drive.google.com/file/d/1JPcUs3aYRr26KhIaUEe2lhjmflZrIcBG/view?usp=sharing
 
 ### Classification of Fruits 
 This dataset contains images of whole fruit and pieces of fruit consisting of 44 fruit classes, such as:
