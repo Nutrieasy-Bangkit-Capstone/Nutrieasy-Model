@@ -22,7 +22,7 @@ This dataset contains images of whole fruit and pieces of fruit consisting of 44
 * 🥭 Mangga (Mangga)
 * 🍉 Watermelon (Semangka) etc.
 
-### Classification of Fruits and Vegetables
+### Classification Vegetables
 This dataset contains images of whole vegetables and vegetable cuts consisting of 22 vegetable classes, such as:
 * 🥦 Broccoli (Brokoli)
 * 🥕 Carrot (Wortel)
