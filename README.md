@@ -80,10 +80,10 @@ A Convolutional Neural Network (CNN) model is used to classify both dataset cate
     
 [2] Dataset
   * Fruits =
-    https://www.kaggle.com/datasets/keycia/fruit-nutrionix
+    https://www.kaggle.com/datasets/keynatwgm/fruits-nutrionix
     
   * Vegetables =
-    https://www.kaggle.com/datasets/keycia/vegetables-nutrionix
+    https://www.kaggle.com/datasets/keynatwgm/vegetables-nutrionix
 
 ## [7] Authors
 
